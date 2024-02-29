@@ -1,0 +1,84 @@
+body{
+    background-color: #aa040481;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins' sans-serif;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+.left{
+    display: flex;
+
+}
+
+.redphone{
+    width: 500px;
+    display: flex;
+    align-items:center ;
+    background-color: hsla(0, 95%, 34%, 0.506);
+    border-radius: 5px;
+}
+#timer h1{
+    margin: 0;
+}
+#timer h2{
+    width: 50%;
+}
+#timer h2{
+    color:#000000
+}
+.counter{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box{
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    border-radius: 5px;
+}
+.box span{
+    font-size: 30px;
+}
+.box p{
+    margin: 0;
+}
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;  
+        padding-bottom: 50px; 
+    }
+    .redphone{
+        width: 100%;
+        align-items:center ;
+        background-color: hsla(0, 95%, 34%, 0.506);
+        border-radius: 5px;
+
+    }
+    .left{
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+    #timer{
+        margin-left: 40px;
+    }
+}
