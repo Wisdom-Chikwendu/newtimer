@@ -64,7 +64,6 @@ body{
         width: 100%;
         display: grid;
         align-items: center;
-        justify-content: center;  
         padding-bottom: 50px; 
     }
     .redphone{
@@ -80,5 +79,6 @@ body{
     }
     #timer{
         margin-left: 40px;
+        margin-right: 40px;
     }
 }
